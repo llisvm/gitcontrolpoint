@@ -1,0 +1,14 @@
+.active link{
+    color: red;
+}
+header{
+    display: flex;
+    
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    padding: 0 15px;
+}
