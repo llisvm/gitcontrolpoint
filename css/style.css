@@ -139,3 +139,19 @@ section{
     background-color: #474341;
     
 }
+
+.fuaters-top{
+    font-size: 50px;
+    font-weight: 600;
+}
+.fuaters-bttm{
+    font-size: 25px;
+}
+/*  */
+.card-image i{
+    font-size: 200px;
+}
+
+.card-title{
+    text-align: center ;
+}
