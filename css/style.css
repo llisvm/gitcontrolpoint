@@ -78,7 +78,7 @@
     left: 45%;
 }
 .container-w-text img{
-    width: 2133px;
+    width: 100%;
 }
 
 .block-w-form{
@@ -154,4 +154,34 @@ section{
 
 .card-title{
     text-align: center ;
+}
+
+.card{
+    margin-bottom: 80px;
+}
+.client-title{
+    font-size: 30px;
+}
+
+.client-logo img{
+    padding-top: 30px;
+    width: 90px;
+}
+
+.review{
+    position: relative;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    
+}
+
+.review img{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+.client-name{
+    font-size: 20px;
+    padding: 25px;
 }
