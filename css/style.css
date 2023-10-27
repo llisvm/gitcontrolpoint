@@ -104,3 +104,38 @@
 .btn-check{
     width: 100px;
 }
+
+/*  */
+section{
+    display: flex;
+}
+.left-box{
+    flex-basis: 50%;
+    background-color: #c5baaa;
+    padding: 70px 100px;
+    
+}
+.rigth-box{
+    flex-basis: 50%;
+    background-color: #806d61;
+    padding: 70px 100px;
+}
+
+.icon-lg i{
+    font-size: 200px;
+    padding-bottom:20px ;
+}
+
+.icon-lg {
+    font-size: 200px;
+    padding-bottom:20px ;
+}
+
+.title-lg{
+    font-size: 35px;
+}
+
+.more-btn{
+    background-color: #474341;
+    
+}
