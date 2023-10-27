@@ -37,16 +37,19 @@
     display: flex;
 }
 .nav-end-left{
-    flex-basis: 20%;
+    flex-basis: 30%;
 }
 .nav-end-left {
-    padding: 10px 30px;
+    padding-top: 10px;
+    padding-left: 50px;
+    
 }
 .nav-end-right{
     flex-basis: 35%;
     border-left:1px solid black;
     font-size: 25px;
-    padding: 10px 30px;
+    padding: 10px 20px;
+
     color: white;
 }
 .sm-title{
@@ -58,3 +61,46 @@
     background-color: #956c4d;
 }
 
+/*  */
+.container-w-text{
+    position: relative;
+}
+.text-on-img{
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.sm-text-on-img{
+    font-size: 25px;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+}
+.container-w-text img{
+    width: 2133px;
+}
+
+.block-w-form{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    left: 45%;
+}
+.block-w-form form{
+    display: flex;
+    width: 100%;
+
+}
+
+.block-w-form input{
+    width: 100px;
+}
+
+.block-w-form input::placeholder{
+    color: White;
+}
+
+.btn-check{
+    width: 100px;
+}
