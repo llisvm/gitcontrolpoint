@@ -1,14 +1,60 @@
-.active link{
-    color: red;
+.active-link{
+    color:red
 }
-header{
+
+.navigation{
+    display: flex;
+    background-color: #474341;
+    
+
+}
+.nav-start{
+    flex-basis: 30%;
+    font-size: 25px;
+    padding: 25px 0;
+    color: white;
+}
+.nav-center{
+    flex-basis: 40%;
+
+   
+}
+.nav-center ul{
     display: flex;
     
 }
-
-nav ul{
+.nav-center li{
+    padding: 20px 25px;
+    color: white;
+}
+.nav-center li:hover{
+    text-decoration: underline;
+}
+.nav-end{
+    flex-basis: 30%;
+}
+.nav-endsp{
     display: flex;
 }
-nav li{
-    padding: 0 15px;
+.nav-end-left{
+    flex-basis: 20%;
 }
+.nav-end-left {
+    padding: 10px 30px;
+}
+.nav-end-right{
+    flex-basis: 35%;
+    border-left:1px solid black;
+    font-size: 25px;
+    padding: 10px 30px;
+    color: white;
+}
+.sm-title{
+    padding: 5px;
+    color: white;
+}
+
+.btn{
+    background-color: #956c4d;
+}
+
