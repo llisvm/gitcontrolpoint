@@ -185,3 +185,25 @@ section{
     font-size: 20px;
     padding: 25px;
 }
+
+.plans-and-pricing{
+    background-color: #474341;
+    height: 300px;
+}
+
+.large-title{
+    color: white;
+    font-size:45px ;
+}
+.small-title{
+    color: lightgrey;
+    font-size: 20px;
+}
+.pap-btn{
+    border: 0.5px solid white;
+    margin-top: 25px;
+    padding: 20px 0px;
+    height: 75px;
+    width: 180px;
+   
+}
